@@ -1,44 +1,50 @@
-#m{
-    width: 110vh;
-    height: 70vh;
-    float: left;
-    }
-    #text{
-    height: 70vh;
-    float: left;
-    width: 98vh;
-    }
-    
-    #ff{
-    width: 55vh;
-    float: left;
-    }
-    #i{
-    width: 100vh ;
-    float: left;
-    height: 32vh;
-    }
-    #o{
-    width: 53vh;
-    height: 32vh;
-    }
-    #f{
-    margin-left: 20vh;
-    }
-    h1{
-        margin-left: 20vh;
-        margin-top: 14vh;
-    
-    }
-    h2{
-        margin-left: 5vh;
-        margin-top: 7vh;
-    }
-    #ss{
-        margin-left: 5vh;
-    }
+.room1,.room2 {
+    display: block;
+    background: white;
+  text-align: center;
+    margin: auto;
+    transition: background-color 300ms;
+    height: auto;
 
-    #e{
-        height: 40vh;
+}
+.room1 .div1 img{
+width:400px ;
+height: 250px;
+}
+button img{
+  width:70px ;
+  height: 25px;
+}
+.imgLeftRight img {
+  display: flexbox;
+  width:80px ;
+  height: 40px;
+}
+.room2 img{
+  width:400px ;
+height: 250px;
+}
+  .room1 {
+    position: static;
+    display: block;
+  }
+  .room1 .div2 .text {
+    position: static;
+    width: 90%;
+    margin: 50px auto 10px auto;
+    transform: translate(50%, 0);
+    -webkit-transform: translate(0%, 0);
+    -moz-transform: translate(0%, 0);
+    -ms-transform: translate(0%, 0);
+    -o-transform: translate(0%, 0);
+    margin:left ;
+  }
+    .room2 .div1 {
+      width: 100%;
+      height: 100%;
     }
-   
+    .room2 .text {
+      padding: 0;
+      width: 90%;
+      margin: 50px auto; 
+    }
