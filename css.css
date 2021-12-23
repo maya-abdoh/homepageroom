@@ -1,50 +1,107 @@
-.room1,.room2 {
-    display: block;
-    background: white;
-  text-align: center;
-    margin: auto;
-    transition: background-color 300ms;
-    height: auto;
+*{
+  margin: 0;
+  padding: 0;
+}
+.rooms1 {
+  display:flex;
+  background: white;
+  margin: auto;
+  transition: background-color 300ms;
+  height: 60vh;
+  width: 100%;
+}
+.div1 {
+  width: 65vw;
+  height: 60vh;
+}
+.div1 img{
+  width: 100%;
+  height: 100%;
+}
+.div2
+{
+  width: 30vw;
+  height: 60vh;
+  position: relative;
+  padding: 80px;
 
 }
-.room1 .div1 img{
-width:400px ;
-height: 250px;
+p {
+  color: #969696;
 }
-button img{
-  width:70px ;
-  height: 25px;
+.shop
+{
+  width: 20vw;
+  height: 5vh;
+  letter-spacing: 7px;
+  display: flex;
 }
-.imgLeftRight img {
-  display: flexbox;
-  width:80px ;
-  height: 40px;
+button{
+  border: none;
+  height: 3vh;
+  width: 5vw;
+  background-color: white;
 }
-.room2 img{
-  width:400px ;
-height: 250px;
+.ptn
+{
+  height: 3vh;
+  width: 5vw;
+  position: relative;
+
 }
-  .room1 {
-    position: static;
-    display: block;
-  }
-  .room1 .div2 .text {
-    position: static;
-    width: 90%;
-    margin: 50px auto 10px auto;
-    transform: translate(50%, 0);
-    -webkit-transform: translate(0%, 0);
-    -moz-transform: translate(0%, 0);
-    -ms-transform: translate(0%, 0);
-    -o-transform: translate(0%, 0);
-    margin:left ;
-  }
-    .room2 .div1 {
-      width: 100%;
-      height: 100%;
-    }
-    .room2 .text {
-      padding: 0;
-      width: 90%;
-      margin: 50px auto; 
-    }
+button img
+{
+  width: 150%;
+  height:100%;
+}
+.imgLeftRight
+{
+ width: 11vw;
+ height: 8vh;
+ border: 1px solid black; 
+ background-color: black;
+ position: absolute;
+ bottom: 300px;
+ left: 929.8px;
+}
+.btn1
+{
+  border:none;   
+background-color: black;
+color: white;
+font-size: xx-large;
+width: 48%;
+height: 8vh;
+}
+.room2 h3{
+  letter-spacing: 7px;
+}
+.rooms2
+{
+  
+  width: 100%;
+  height:40vh;
+  display: flex;
+  font-size: 18px;
+}
+.room1
+{
+  width: 30%;
+  height: 40vh;
+}
+.room1 img ,.room3 img
+{
+  width: 100%;
+  height: 100%;
+}
+.room2
+{
+  width: 40%;
+  height: 40vh;
+  padding: 65px;
+}
+.room3
+{
+  width: 30%;
+  height: 40vh;
+}
