@@ -1,1 +1,44 @@
+#m{
+    width: 110vh;
+    height: 70vh;
+    float: left;
+    }
+    #text{
+    height: 70vh;
+    float: left;
+    width: 98vh;
+    }
+    
+    #ff{
+    width: 55vh;
+    float: left;
+    }
+    #i{
+    width: 100vh ;
+    float: left;
+    height: 32vh;
+    }
+    #o{
+    width: 53vh;
+    height: 32vh;
+    }
+    #f{
+    margin-left: 20vh;
+    }
+    h1{
+        margin-left: 20vh;
+        margin-top: 14vh;
+    
+    }
+    h2{
+        margin-left: 5vh;
+        margin-top: 7vh;
+    }
+    #ss{
+        margin-left: 5vh;
+    }
 
+    #e{
+        height: 40vh;
+    }
+   
