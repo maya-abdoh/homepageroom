@@ -119,3 +119,39 @@ height: 8vh;
   width: 30%;
   height: 40vh;
 }
+@media screen and (max-width: 500px) {
+   .rooms1,.rooms2{
+    flex-direction: column;
+     display: block;
+    width:120%;
+    height: 50%;
+   }
+   .div1 img{
+     width:150%;
+     height: 50%;
+   }
+   .room1 img{
+    width:150%;
+    height: 50%;
+  }
+.shop{
+  width: 30vw;
+  height: 10vh;
+  letter-spacing: 7px;
+  display: flex;
+  cursor:pointer;
+
+}
+   .div2{
+     display: block;
+    margin: left;
+    width: 100vw;
+    height:30vh;
+    position: relative;
+
+}
+
+
+
+
+}
