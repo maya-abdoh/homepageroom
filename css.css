@@ -17,10 +17,15 @@
 
 .all-memu{
   font-family: "Arial",serif;
-  background-color: #f4f4f4;
+  background-color: #1f1a1a;
   overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-
+.bar-div{
+z-index: 1000;
+}
 .bar{
   background: rgba(255,255,255,.5);
   overflow: hidden;
@@ -98,6 +103,7 @@
   height: 60vh;
   position: relative;
   padding: 80px;
+
 }
 p {
   color: #969696;
@@ -117,7 +123,10 @@ button{
   width: 5vw;
   background-color: white;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 43776b2a72ff4e56b45a6698a13036c875d94db1
 }
 .ptn
 {
@@ -129,6 +138,8 @@ button img
 {
   width: 150%;
   height:100%;
+  
+
 }
 .imgLeftRight
 {
@@ -217,65 +228,3 @@ height: 8vh;
 
 }
 }
-
-<<<<<<< HEAD
-.bar{
-  position: absolute;
-  overflow: hidden;
-  height: 63px;
-}
-=======
->>>>>>> ea231195f733384dfacc664ef2a6c810353c156b
-
-
-<<<<<<< HEAD
-.side-div{
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  opacity: 0.9;
-  overflow-x: hidden;
-  padding-top: 60px;
-  transition: 0.5s;
-}
-
-.side-div a{
-  padding: 10px 10px 10px 30px;
-  text-decoration: none;
-  font-size: 22px;
-  color: #ccc;
-  display: block;
-  transition: 0.3s;
-}
-
-.side-div a:hover{
-  color: #fff;
-}
-
-.side-div .btn-close{
-  position: absolute;
-  top:0;
-  right: 22px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-#main{
-  position: absolute;
-  transition: 0.5s;
-  padding: 20px;
-  overflow: hidden;
-  width: 100%;
-}
-
-@media(max-width:568px){
- .bar-div{display: none;}
-}
-@media(min-width:568px){
-  .open-slide{display: none;}
-}
-=======
->>>>>>> ea231195f733384dfacc664ef2a6c810353c156b
