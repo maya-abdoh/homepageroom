@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -11,63 +11,48 @@
 
 </head>
 <body>
-  
-<script>
-    function OpenSlideMenu(){
-        document.getElementById('side-menu').style.width='250px';
-        document.getElementById('main').style.marginLeft='250px';            
-    }
-    function CloseSlideMenu(){
-        document.getElementById('side-menu').style.width='0';
-        document.getElementById('main').style.marginLeft='0';
-    }
-</script>
   <div class="rooms1" > 
     <div class="div1">
-       <div class="all-memu">
-    <div class="bar">
-      <div class="open-slide">
-          <a href="#" onclick="OpenSlideMenu()">
-              <svg width="30" height="30">
-                  <path d="M0,5 30 ,5" stroke="#000"
-                  stroke-width="5"/>
-                  <path d="M0 ,14 30 ,14" stroke="#000"
-                  stroke-width="5"/>
-                  <path d="M0,23 30 ,23" stroke="#000"
-                  stroke-width="5"/>
-              </svg>
-          </a>
+
+      <div class="all-memu">
+        <div class="bar">
+          <div class="open-slide">
+              <a href="#" onclick="OpenSlideMenu()">
+                  <svg width="30" height="30">
+                      <path d="M0,5 30 ,5" stroke="#fff"
+                      stroke-width="5"/>
+                      <path d="M0 ,14 30 ,14" stroke="#fff"
+                      stroke-width="5"/>
+                      <path d="M0,23 30 ,23" stroke="#fff"
+                      stroke-width="5"/>
+                  </svg>
+              </a>
+          </div>
+          <ul class="bar-div">
+              <!-- <li><h2> room</h2></li> -->
+              <li><a href="#"> Home</a></li>
+              <li><a href="#"> Shop</a></li>
+              <li><a href="#"> About</a></li>
+              <li><a href="#"> contact</a></li>
+          </ul>
       </div>
-      <ul class="bar-div">
-          <li><a href="#"> Home</a></li>
-          <li><a href="#"> Shop</a></li>
-          <li><a href="#"> About</a></li>
-          <li><a href="#"> contact</a></li>
-      </ul>
+      <div id="side-menu" class="side-div">
+          <a href="#" class="btn-close"
+          onclick="CloseSlideMenu()">&times;</a>
+          <a href="#">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">About</a>
+          <a href="#">contact</a>
+      </div>
+      </div>
+      <img src="./top.jpg" alt="img" id="coverImg">
   </div>
-  <div id="side-menu" class="side-div">
-      <a href="#" class="btn-close"
-      onclick="CloseSlideMenu()">&times;</a>
-      <a href="#">Home</a>
-      <a href="#">Shop</a>
-      <a href="#">About</a>
-      <a href="#">contact</a>
-  </div>
-  <div id="main">
-  </div>
+
+  <div class="imgLeftRight">
+    <button id="rock1" onClick="choose(1)">Rock</button>
+    <button id="rock2" onClick="choose(1)">Rock</button>
   </div>
   
-      <img src="./top.jpg" alt="img" id="coverImg">
-      <div class="imgLeftRight">
-        <button class="btn1">
-           &#8249;
-        </button>
-        <button class="btn1">
-           &#8250;
-        </button>
-      </div>
-    </div>
-
     <div class="div2">
       <h1 class id="Title">Discover innovative <br>ways to decorate</h1> 
      <br>
@@ -81,14 +66,14 @@
        SHOP NOW
        <div class="ptn">
      <button id="mm">
-        <img src="./right-arc8.png" alt="shop now">
+        <img src="./right-arc8.png" alt="shop now ">
     </button>
-</div>
-      </div>  
+       </div>
+    </div> 
    </div> 
     </div>
-     </div>
-
+  </div>
+  
 
    <div class="rooms2">
      <div class="room1">
@@ -110,3 +95,4 @@
     </div>
 </body>
 </html>
+
