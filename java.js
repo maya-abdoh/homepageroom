@@ -20,3 +20,14 @@ btn12.addEventListener('click', () =>  {
   btn12.addEventListener('click', () =>  {
     te.textContent="maya kkkkkabdohhhh";
   } ) 
+
+  //menu
+    function OpenSlideMenu(){
+        document.getElementById('side-menu').style.width='250px';
+        document.getElementById('main').style.marginLeft='250px';            
+    }
+    function CloseSlideMenu(){
+        document.getElementById('side-menu').style.width='0';
+        document.getElementById('main').style.marginLeft='0';
+    }
+
