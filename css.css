@@ -105,7 +105,7 @@ width: 120vh;
   width: 30vw;
   height: 60vh;
   position: relative;
-  padding: 80px;
+  padding: 40px;
 
 }
 p {
@@ -152,13 +152,14 @@ button img
 .imgLeftRight
 {
   cursor:pointer;
- width: 20vh;
+  display: flex;
+ width: 26vh;
  height: 70vh;
  left: 834px;
  margin-top: 55vh;
 }
 .click1 , .click2{
-  width: 5ch;
+  width: 15ch;
   float: left;
   height: 10vh;
   background-color: black;
