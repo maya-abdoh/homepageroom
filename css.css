@@ -153,11 +153,12 @@ button img
 {
   cursor:pointer;
  width: 20vh;
- height: 70vhvh;
+ height: 70vh;
  left: 834px;
  margin-top: 55vh;
 }
-.click{
+.click1,.click2{
+  cursor:pointer;
   width: 5ch;
   float: left;
   height: 10vh;
