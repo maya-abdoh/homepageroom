@@ -115,6 +115,7 @@ p {
   letter-spacing: 7px;
   display: flex;
   cursor:pointer;
+  margin-left: 90px;
 
 }
 button{
@@ -123,10 +124,7 @@ button{
   width: 5vw;
   background-color: white;
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 43776b2a72ff4e56b45a6698a13036c875d94db1
 }
 .ptn
 {
@@ -150,8 +148,8 @@ button img
  border: 1px solid black; 
  background-color: black;
  position: absolute;
- bottom: 302px;
- left: 929.8px;
+ bottom: 274px;
+ left: 834px;
 
 }
 .btn1
