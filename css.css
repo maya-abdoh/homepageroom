@@ -33,11 +33,18 @@ width: 120vh;
   height: 63px;
   width: 65vw;
   padding-right: 4;
+  margin-left: 42px; 
+  margin-top: 40px;
 }
-.roomtitle{
-  font-size: 100px;
-  margin-top: -10px;
+#roomtitle {
 
+  list-style: none;
+  
+}
+#roomtitle1{
+ 
+  margin-top: -8px;
+  font-size: 25px;
 }
 .bar a{
   float: left;
@@ -98,6 +105,7 @@ width: 120vh;
 }
 @media(min-width:568px){
   .open-slide{display: none;}
+  .roomtitle{display: none;}
 }
 
 .div1 img{
