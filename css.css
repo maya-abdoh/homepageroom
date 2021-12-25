@@ -34,7 +34,11 @@ width: 120vh;
   width: 65vw;
   padding-right: 4;
 }
+.roomtitle{
+  font-size: 100px;
+  margin-top: -10px;
 
+}
 .bar a{
   float: left;
   display: block;
