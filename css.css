@@ -17,19 +17,19 @@
 
 .all-memu{
   font-family: "Arial",serif;
-  background-color: #1f1a1a;
-  overflow-x: hidden;
+  background-color: none;
+  overflow-x: hidden; 
   position: absolute;
   top: 0;
   left: 0;
 }
-.bar-div{
-z-index: 1000;
-}
+
 .bar{
-  background: rgba(255,255,255,.5);
-  overflow: hidden;
+  background: none;
+   /* overflow: hidden;  */
   height: 63px;
+  width: 65vw;
+  padding-right: 4;
 }
 
 .bar a{
@@ -42,7 +42,7 @@ z-index: 1000;
   font-size: 17px;
 }
 .bar ul{
-  margin: 8px 0 0 0;
+  margin: 8px  8px  8px  8px;
   list-style: none;
 }
 
@@ -140,7 +140,6 @@ button img
 .imgLeftRight
 {
   cursor:pointer;
-
  width: 11vw;
  height: 8vh;
  border: 1px solid black; 
