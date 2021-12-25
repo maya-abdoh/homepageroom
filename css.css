@@ -22,7 +22,6 @@
 {
   width: 30vw;
   height: 60vh;
-  position: relative;
   padding: 80px;
 
 }
@@ -39,53 +38,35 @@ p {
 
 }
 button{
-  border: none;
+
   height: 3vh;
   width: 5vw;
   background-color: white;
-  
-
 }
 .ptn
 {
   height: 3vh;
   width: 5vw;
   position: relative;
-  
-
-
 }
 button img
 {
   width: 150%;
   height:100%;
-  
-
-
 }
 .imgLeftRight
 {
   cursor:pointer;
-
  width: 11vw;
  height: 8vh;
  border: 1px solid black; 
- background-color: black;
+ background-color: rgb(114, 68, 68);
  position: absolute;
  bottom: 302px;
  left: 929.8px;
-
 }
-.btn1
-{
-  cursor:pointer;
-  border:none;   
-background-color: black;
-color: white;
-font-size: xx-large;
-width: 48%;
-height: 8vh;
-
+button #rock {
+  background: url(angle-right-512.webp) no-repeat;
 }
 .room2 h3{
   letter-spacing: 7px;
