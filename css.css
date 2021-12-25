@@ -115,7 +115,7 @@ p {
 {
   width: 20vw;
   height: 5vh;
-  letter-spacing: 7px;
+  letter-spacing: 1rem;
   display: flex;
   cursor:pointer;
   margin-left: -16vh;
