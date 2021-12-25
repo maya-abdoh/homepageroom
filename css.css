@@ -214,31 +214,41 @@ height: 8vh;
    .rooms1,.rooms2{
     flex-direction: column;
      display: block;
-    width:120%;
-    height: 50%;
+    width:100%;
+    height: auto;
    }
-   .div1 img{
-     width:150%;
-     height: 50%;
+   .rooms1 .div1,.rooms1 .div2{
+    display: block;
+    width: 100%;
+    
    }
-   .room1 img{
-    width:150%;
-    height: 50%;
-  }
-.shop{
+   .rooms1 .div2,.rooms2 .room2{
+    width: 85%;
+    margin: 50px auto;
+   }
+   .rooms1 .div1 img{
+    position: static;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+   }
+   .rooms2.room1,.rooms2.room3{
+    width: 336%;
+    height: 100%;
+   }
+  .shop{
   width: 30vw;
   height: 10vh;
   letter-spacing: 7px;
   display: flex;
-  
-
-}
-   .div2{
-     display: block;
-    margin: left;
-    width: 100vw;
-    height:30vh;
-    position: relative;
-
-}
+  }
+  .imgLeftRight{
+       background-color: black;
+       position: absolute;
+       bottom: 225px;
+       left:344px;
+      width: 20vh;
+      height: 10vh;
+ }
 }
