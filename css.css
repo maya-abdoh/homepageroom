@@ -7,12 +7,16 @@
   background: white;
   margin: auto;
   transition: background-color 300ms;
-  height: 60vh;
+  height: 65vh;
   width: 100%;
 }
 .div1 {
   width: 65vw;
   height: 60vh;
+}
+#coverImg{
+height: 65vh;
+width: 120vh;
 }
 
 .all-memu{
@@ -26,7 +30,6 @@
 
 .bar{
   background: none;
-   /* overflow: hidden;  */
   height: 63px;
   width: 65vw;
   padding-right: 4;
@@ -115,7 +118,7 @@ p {
   letter-spacing: 7px;
   display: flex;
   cursor:pointer;
-  margin-left: 90px;
+  margin-left: 10px;
 
 }
 button{
@@ -132,6 +135,13 @@ button{
   width: 5vw;
   position: relative;
 }
+
+ #mm{
+   border:none;
+   cursor:pointer;
+
+ }
+
 button img
 {
   width: 150%;
@@ -142,15 +152,20 @@ button img
 .imgLeftRight
 {
   cursor:pointer;
- width: 11vw;
- height: 8vh;
- border: 1px solid black; 
- background-color: black;
- position: absolute;
- bottom: 274px;
+ width: 20vh;
+ height: 70vhvh;
  left: 834px;
-
+ margin-top: 55vh;
 }
+.click{
+  width: 5ch;
+  float: left;
+  height: 10vh;
+  background-color: black;
+}
+
+
+
 .btn1
 {
   cursor:pointer;
@@ -213,7 +228,7 @@ height: 8vh;
   height: 10vh;
   letter-spacing: 7px;
   display: flex;
-  cursor:pointer;
+  
 
 }
    .div2{
