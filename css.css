@@ -22,6 +22,7 @@
   position: absolute;
   top: 0;
   left: 0;
+
 }
 
 .bar{
@@ -29,7 +30,7 @@
    /* overflow: hidden;  */
   height: 63px;
   width: 65vw;
-  padding-right: 4;
+ 
 }
 
 .bar a{
@@ -105,6 +106,10 @@
   padding: 80px;
 
 }
+
+h1{
+  font-family:   ;
+}
 p {
   color: #969696;
 }
@@ -122,11 +127,6 @@ button{
   height: 3vh;
   width: 5vw;
   background-color: white;
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 43776b2a72ff4e56b45a6698a13036c875d94db1
 }
 .ptn
 {
