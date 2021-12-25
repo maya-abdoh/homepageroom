@@ -118,7 +118,8 @@ p {
   letter-spacing: 7px;
   display: flex;
   cursor:pointer;
-  margin-left: 10px;
+  margin-left: -16vh;
+  margin-top: 3vh;
 
 }
 button{
@@ -166,7 +167,10 @@ button img
   cursor:pointer;
 }
 
-
+#r{
+  margin-left: -16vh;
+  margin-top: 3vh;
+}
 
 .btn1
 {
