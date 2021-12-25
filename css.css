@@ -225,9 +225,10 @@ height: 8vh;
     width:100%;
     height: auto;
    }
-   .rooms1 .div1,.rooms1 .div2{
+  .rooms1 .div2{
     display: block;
     width: 100%;
+    left: 25%;
     
    }
    .rooms1 .div2,.rooms2 .room2{
@@ -255,8 +256,7 @@ height: 8vh;
       width: 20vh;
       height: 10vh;
     }
-    .rooms2
-    {
+    .rooms2{
         flex-direction: column;
         display: flex;
     }
