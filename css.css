@@ -229,22 +229,14 @@ height: 8vh;
     width:100%;
     height: auto;
    }
-  .rooms1 .div2{
-    display: block;
-    width: 100%;
-    left: 25%;
-    
+   .rooms1 .div1 img{
+    width: 336%;
+    height: 100%;
    }
    .rooms1 .div2,.rooms2 .room2{
     width: 85%;
     margin: 50px auto;
-   }
-   .rooms1 .div1 img{
-    position: static;
-    top: 0;
-    left: 0;
-    width: 150%;
-    height: 100%;
+    left: 25%;
    }
   .shop{
   width: 200vw;
@@ -264,9 +256,9 @@ height: 8vh;
         flex-direction: column;
         display: flex;
     }
-    .room1 img ,.room3 img
+    .rooms2 .room1 img ,.room3 img
     {
-        width: 100%;
+        width: 336%;
         height: 100%;
     }
 }
