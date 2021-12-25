@@ -33,7 +33,7 @@ let arrs=[
 }
 function tt(){
         i--;
-        if(i<=0)i=arrs.length-1;
+        if(i<0)i=arrs.length-1;
        imgg.src=arrs[i];
         titel.textContent=arrt[i];
         text.textContent=arrp[i];
