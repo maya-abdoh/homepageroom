@@ -38,13 +38,11 @@ p {
 
 }
 button{
-
-  height: 3vh;
+  height: 5vh;
   width: 5vw;
   background-color: white;
 }
-.ptn
-{
+.ptn{
   height: 3vh;
   width: 5vw;
   position: relative;
@@ -60,13 +58,16 @@ button img
  width: 11vw;
  height: 8vh;
  border: 1px solid black; 
- background-color: rgb(114, 68, 68);
+ background-color: rgb(8, 8, 8);
  position: absolute;
  bottom: 302px;
  left: 929.8px;
 }
-button #rock {
-  background: url(angle-right-512.webp) no-repeat;
+button #rock1 {
+  background: url(&#8249) no-repeat;
+}
+button #rock2 {
+  background: url(&#8250) no-repeat;
 }
 .room2 h3{
   letter-spacing: 7px;
