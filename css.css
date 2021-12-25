@@ -14,6 +14,80 @@
   width: 65vw;
   height: 60vh;
 }
+
+.all-memu{
+  font-family: "Arial",serif;
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+}
+
+.bar{
+  background: rgba(255,255,255,.5);
+  overflow: hidden;
+  height: 63px;
+}
+
+.bar a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.bar ul{
+  margin: 8px 0 0 0;
+  list-style: none;
+}
+
+.bar a:hover{
+  background-color: #ddd;
+  color: #000;
+}
+
+.side-div{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.side-div a{
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #ccc;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-div a:hover{
+  color: #fff;
+}
+
+.side-div .btn-close{
+  position: absolute;
+  top:0;
+  right: 22px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media(max-width:568px){
+ .bar-div{display: none;}
+}
+@media(min-width:568px){
+  .open-slide{display: none;}
+}
+
 .div1 img{
   width: 100%;
   height: 100%;
@@ -22,6 +96,7 @@
 {
   width: 30vw;
   height: 60vh;
+  position: relative;
   padding: 80px;
 
 }
@@ -38,11 +113,14 @@ p {
 
 }
 button{
-  height: 5vh;
+
+  height: 3vh;
   width: 5vw;
   background-color: white;
+
 }
-.ptn{
+.ptn
+{
   height: 3vh;
   width: 5vw;
   position: relative;
@@ -51,23 +129,32 @@ button img
 {
   width: 150%;
   height:100%;
+  
+
+
 }
 .imgLeftRight
 {
   cursor:pointer;
+
  width: 11vw;
  height: 8vh;
  border: 1px solid black; 
- background-color: rgb(8, 8, 8);
+ background-color: black;
  position: absolute;
  bottom: 302px;
  left: 929.8px;
+
 }
-button #rock1 {
-  background: url(&#8249) no-repeat;
-}
-button #rock2 {
-  background: url(&#8250) no-repeat;
+.btn1
+{
+  cursor:pointer;
+background-color: black;
+color: white;
+font-size: xx-large;
+width: 48%;
+height: 8vh;
+
 }
 .room2 h3{
   letter-spacing: 7px;
@@ -104,45 +191,35 @@ button #rock2 {
 @media screen and (max-width: 500px) {
    .rooms1,.rooms2{
     flex-direction: column;
-    display: block;
-    width:100%;
-    height: 100%;
+     display: block;
+    width:120%;
+    height: 50%;
    }
    .div1 img{
      width:150%;
-     height: 100%;
+     height: 50%;
    }
-  .shop{
-    width: 100vw;
-    height: 10vh;
-    letter-spacing: 7px;
-  }
-  button{
-    height: 5vh;
-    width: 20vw;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    overflow: hidden;
-  }
-  .ptn{
-    height: 5vh;
-    width: 20vw;
-    position: relative;
-  }
-  button img
-{
-  width: 150%;
-  height:50%;
-}
-   .div2,.room2{
-    display: block;
-    margin: left;
+   .room1 img{
     width:150%;
-    height: 100%;
-    
+    height: 50%;
   }
-.rooms2 .room1 img,.rooms2 .room3 img{
-  height: 100%;
-  width:336%;
-  }
+.shop{
+  width: 30vw;
+  height: 10vh;
+  letter-spacing: 7px;
+  display: flex;
+  cursor:pointer;
+
 }
+   .div2{
+     display: block;
+    margin: left;
+    width: 100vw;
+    height:30vh;
+    position: relative;
+
+}
+}
+
+
+
