@@ -4,9 +4,7 @@
 }
 .rooms1 {
   display:flex;
-  background: white;
   margin: auto;
-  transition: background-color 300ms;
   height: 65vh;
   width: 100%;
 }
@@ -29,7 +27,6 @@ width: 120vh;
 }
 
 .bar{
-  background: none;
   height: 63px;
   width: 65vw;
   padding-right: 4;
