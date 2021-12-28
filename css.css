@@ -117,6 +117,10 @@ width: 120vh;
   padding: 50px;
 
 }
+.div2 h1{
+  font-family:Tahoma;
+  height: 10vh;
+}
 p {
   color: #969696;
 }
