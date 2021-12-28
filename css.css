@@ -120,6 +120,7 @@ width: 120vh;
 .div2 h1{
   font-family:Tahoma;
   height: 10vh;
+  font-size:30px
 }
 p {
   color: #969696;
@@ -239,7 +240,7 @@ height: 8vh;
     height: auto;
    }
    .rooms1 .div1 img{
-    width: 370%;
+    width: 400%;
     height: 100%;
    }
    .rooms1 .div2,.rooms2 .room2{
