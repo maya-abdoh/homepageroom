@@ -71,13 +71,12 @@ width: 120vh;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgb(73, 66, 66);
   opacity: 0.9;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
 }
-
 .side-div a{
   padding: 10px 10px 10px 30px;
   text-decoration: none;
