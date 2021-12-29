@@ -26,7 +26,7 @@ let arrs=[
  rock2.addEventListener('click',swap);
     function swap(){
       i++;
-      if((i==arrs.length)||(i>=arrs.length))i=0;
+      if(i==arrs.length)i=0;
         imgg.src=arrs[i];
         titel.textContent=arrt[i];
         text.textContent=arrp[i];

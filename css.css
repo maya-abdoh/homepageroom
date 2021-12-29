@@ -51,7 +51,6 @@ width: 120vh;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: 17px;
 }
 .bar ul{
@@ -80,7 +79,6 @@ width: 120vh;
 
 .side-div a{
   padding: 10px 10px 10px 30px;
-  text-decoration: none;
   font-size: 22px;
   color: #ccc;
   display: block;
@@ -183,9 +181,9 @@ button img
   font-size: xx-large;
 }
 
-#r{
+#alltext{
   margin-left: -16vh;
-  margin-top: 3vh;
+  
 }
 
 .btn1
@@ -201,7 +199,11 @@ height: 8vh;
 .room2 h3{
   letter-spacing: 7px;
 }
-#y{
+#c1{
+  color: #ddd;
+  font-size: 35px;
+}
+#c2{
   color: #ddd;
   font-size: 35px;
 }
@@ -261,8 +263,10 @@ height: 8vh;
   .shop{
   width: 100%;
   height: 5vh;
-  letter-spacing:1.5rem;
   display: flex;
+  letter-spacing:1.5rem;
+
+
   }
   #buttonshop
   {
