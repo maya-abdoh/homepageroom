@@ -183,7 +183,7 @@ button img
   font-size: xx-large;
 }
 
-#r{
+#alltext{
   margin-left: -16vh;
   margin-top: 3vh;
 }
@@ -201,7 +201,11 @@ height: 8vh;
 .room2 h3{
   letter-spacing: 7px;
 }
-#y{
+#c1{
+  color: #ddd;
+  font-size: 35px;
+}
+#c2{
   color: #ddd;
   font-size: 35px;
 }
