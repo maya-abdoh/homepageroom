@@ -233,9 +233,41 @@ height: 8vh;
   width: 30%;
   height: 40vh;
 }
+<<<<<<< Updated upstream
 
 @media screen and (max-width: 768px) {
 
 
    
 }
+=======
+@media screen and (max-width: 500px) {
+   .rooms1,.rooms2{
+    flex-direction: column;
+     display: block;
+   }
+   .div1 img{
+     width:150%;
+     height: 50%;
+   }
+   .room1 img{
+    width:150%;
+    height: 50%;
+  }
+  .imgLeftRight{
+ width: 5vw;
+ height: 5vh;
+ border: 1px solid black; 
+ background-color: black;
+}
+  .btn1{
+ position: fixed;
+top: 153px;
+left: 210px;
+right: 0px;
+}
+
+
+
+}
+>>>>>>> Stashed changes
