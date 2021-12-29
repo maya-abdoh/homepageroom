@@ -233,14 +233,7 @@ height: 8vh;
   width: 30%;
   height: 40vh;
 }
-<<<<<<< Updated upstream
 
-@media screen and (max-width: 768px) {
-
-
-   
-}
-=======
 @media screen and (max-width: 500px) {
    .rooms1,.rooms2{
     flex-direction: column;
@@ -270,4 +263,3 @@ right: 0px;
 
 
 }
->>>>>>> Stashed changes
