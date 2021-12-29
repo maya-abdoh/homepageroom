@@ -235,7 +235,7 @@ height: 8vh;
 }
 
 @media screen and (max-width: 568px) {
-  .rooms1{
+  .rooms1 , .rooms2{
     flex-direction: column;
     display: block;
    }
@@ -277,11 +277,6 @@ height: 8vh;
        left: 632px;
       width: 25vh;
       height: 9.5vh;
-    }
-
-    .rooms2{
-      flex-direction: column;
-
     }
     .room1 , .room3{
       width: 150vw;
