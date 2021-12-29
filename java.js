@@ -38,9 +38,9 @@ function tt(){
         titel.textContent=arrt[i];
         text.textContent=arrp[i];
 }
-  //menu
     function OpenSlideMenu(){
         document.getElementById('side-menu').style.width='250px';
+        document.getElementById('side-menu').style.height='200px';
     }
     function CloseSlideMenu(){
         document.getElementById('side-menu').style.width='0';
