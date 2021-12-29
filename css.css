@@ -51,6 +51,7 @@ width: 120vh;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
+  text-decoration: none;
   font-size: 17px;
 }
 .bar ul{
@@ -79,6 +80,7 @@ width: 120vh;
 
 .side-div a{
   padding: 10px 10px 10px 30px;
+  text-decoration: none;
   font-size: 22px;
   color: #ccc;
   display: block;
@@ -96,7 +98,6 @@ width: 120vh;
   font-size: 36px;
   margin-left: 50px;
 }
-
 @media(max-width:568px){
  .bar-div{display: none;}
 }
@@ -258,15 +259,12 @@ height: 8vh;
    }
    .div2 , #Title{
      font-size: 170%;
-    
    }
   .shop{
   width: 100%;
   height: 5vh;
   display: flex;
   letter-spacing:1.5rem;
-
-
   }
   #buttonshop
   {
@@ -293,7 +291,4 @@ height: 8vh;
         width: 120%;
         margin: 25px;
     }
- 
-
-
 }
